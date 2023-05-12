@@ -1,0 +1,27 @@
+{
+  "name": "tarefa11-ebac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElisamaSilva/tarefa11-ebac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElisamaSilva/tarefa11-ebac/issues"
+  },
+  "homepage": "https://github.com/ElisamaSilva/tarefa11-ebac#readme",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "faker": "^6.6.6"
+  }
+}
