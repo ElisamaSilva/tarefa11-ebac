@@ -1,9 +1,9 @@
-describe('Funcionalidade Página de Produtos', () => {
+describe('Acessando a Loja', () => {
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos/')
     });
 
-    it('Deve adiconar produtos ao carrinho', () => {
+    it('Deve fazer compra de ponta a ponta', () => {
         //Adiciona Produtos
         cy.addProdutos('Atlas Fitness Tank', 4)
         cy.get('.woocommerce-message > .button').click()

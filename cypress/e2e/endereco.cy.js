@@ -2,7 +2,7 @@ import EnderecoPage from '../support/page-objects/endereco.page'
 
 describe('Endereços - Faturamento e Entrega', () => {
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        cy.visit('minha-conta/')
         cy.login('aluno_ebac@teste.com', 'teste@teste.com')
     });
 
